@@ -1,6 +1,8 @@
 /* universal */
 *{
     margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    list-style: none;
 }
 
 
@@ -36,3 +38,65 @@
     padding-right: 200px;
     padding-top: 40px;
 }
+
+/* ======================MAIN====================== */
+
+.first-section{
+    display: flex;
+    margin: 200px 200px ;
+    justify-content: space-around;
+}
+.privious-year{
+    padding-top: 300px;
+    color: #444343;
+}
+.privious-year-tittle{
+    width: 600;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+.privious-year-discription{
+    font-size: 18px;
+}
+.failior-list{
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 14px;
+}
+.icon-click {
+    width: 10px;
+}
+
+/* ====================MY PLANS====================== */
+
+.my-plan{
+    margin-top: 40px;
+    text-align: center;
+    width: 600;
+    font-size: 50px;
+}
+.my-plan-icon{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 300px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.my-plan-discription{
+    text-align: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.my-plan-tittle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 700;
+    font-size: 25px;
+}
+.my-plan-subtittle{
+    width: 300;
+    font-size: 18px;
+    color: #444343;
+}
+
+/* ====================banner=============== */
